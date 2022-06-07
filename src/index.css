@@ -1,0 +1,242 @@
+/* FUENTES */
+@import url("https://fonts.googleapis.com/css2?family=Neuton&display=swap");
+/* END FUENTES */
+
+html {
+  height: 100%;
+  display: block;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url("./images/stars.gif");
+  background-repeat: repeat;
+}
+
+.BotonCopiar {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/* ANIMACIONES */
+
+/* Animacion About e Interests */
+.MainAbout-Title:hover,
+.MainInterests-Title:hover {
+  font-size: 5vh;
+  transition: font-size 0.2s;
+}
+
+.MainAbout-Title:not(:hover),
+.MainInterests-Title:not(:hover) {
+  font-size: 4vh;
+  transition: font-size 0.2s;
+}
+/* END Animacion About e Interests */
+
+/* Iconos de redes */
+a {
+  color: white;
+  opacity: 0.3;
+}
+
+a:hover {
+  opacity: 1;
+  transition: opacity 600ms;
+}
+
+a:not(:hover) {
+  opacity: 0.2;
+  transition: opacity 600ms;
+}
+/* END Iconos de redes */
+
+/* Animacion linea nombre */
+.MainInfo-MainName:hover {
+  background-size: 100% 3px, 100% 3px;
+}
+
+.MainInfo-MainName {
+  background: linear-gradient(to right, white, white);
+  background-size: 100% 0px, 0 0px;
+  background-position: 100% 100%, 100% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 200ms;
+}
+/* END Animacion linea nombre */
+
+/* Animacion foto */
+.MainInfo-ProfilePicture:hover {
+  border: 4px solid rgba(202, 233, 255, 1);
+  width: 16vh;
+  transition: width 0.2s, border 0.5s;
+}
+
+.MainInfo-ProfilePicture:not(:hover) {
+  border: 4px solid rgba(202, 233, 255, 0.5);
+  width: 14vh;
+  transition: width 0.2s, border 0.5s;
+}
+/* END Animacion foto */
+
+/* END ANIMACIONES */
+
+/* Header */
+
+.MainHeaderDiv {
+  left: 0;
+  top: 10px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.MainHeader {
+  opacity: 0.5;
+  padding: 20px;
+  color: white;
+  font-family: "Neuton";
+  font-weight: 100;
+  font-size: calc(10px + 0.5vw)
+}
+
+.MainHeader:hover {
+  opacity: 1;
+  transition: opacity 600ms;
+}
+
+.MainHeader:not(:hover) {
+  opacity: 0.5;
+  transition: opacity 600ms;
+}
+
+/* End header */
+
+/* Photo, name and title */
+
+.MainInfoDiv {
+  margin: 0;
+  padding: 0px 50px 0px 50px;
+  text-align: center;
+}
+
+.MainInfo-ProfilePicture {
+  width: 12vh;
+  height: 18vh;
+  object-fit: cover;
+  object-position: 0 30%;
+  border-radius: 20px;
+  border: 4px solid rgba(202, 233, 255, 0.5);
+}
+
+.MainInfo-MainName {
+  color: #cae9ff;
+  font-family: "Neuton";
+  font-weight: 900;
+  font-size: 4vh;
+  margin: 0px 0px 5px 0px;
+  display: inline-block;
+}
+
+.MainInfo-Title {
+  color: white;
+  font-family: "Neuton";
+  font-weight: 100;
+  font-size: 2.5vh;
+  margin-top: 0;
+}
+
+/* END Photo, name and title */
+
+/* About */
+
+.MainAboutDiv {
+  margin: 0 20px 0 20px;
+  text-align: center;
+}
+
+.MainAbout-Title {
+  color: #cae9ff;
+  font-family: "Neuton";
+  font-weight: 900;
+  font-size: 4vh;
+  margin: 0;
+  display: inline-block;
+}
+
+.MainAbout-Text {
+  color: white;
+  font-family: "Neuton";
+  font-weight: 100;
+  font-size: 2.5vh;
+  margin-top: 10px;
+}
+
+/* End About */
+
+/* Interests */
+
+.MainInterestsDiv {
+  margin: 0 20px 0 20px;
+  text-align: center;
+}
+
+.MainInterests-Title {
+  color: #cae9ff;
+  font-family: "Neuton";
+  font-weight: 900;
+  font-size: 4vh;
+  margin: 0;
+  display: inline-block;
+}
+
+.MainInterests-Text {
+  color: white;
+  font-family: "Neuton";
+  font-weight: 100;
+  font-size: 2.5vh;
+  margin-top: 10px;
+}
+
+/* END Info */
+
+/* Footer */
+
+.MainFooterDiv {
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px 0 15px 0;
+  bottom: 0;
+  position: fixed;
+}
+
+/* END Footer */
+
+/* Tooltips */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
