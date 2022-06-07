@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/geraspace.github.io/static/css/main.d4e97437.css",
-    "main.js": "/geraspace.github.io/static/js/main.db74ce3a.js",
-    "static/js/787.d54a2c7b.chunk.js": "/geraspace.github.io/static/js/787.d54a2c7b.chunk.js",
-    "static/media/ProfilePicture.jpg": "/geraspace.github.io/static/media/ProfilePicture.e694a09b2f013f2a61a9.jpg",
-    "static/media/Background.jpg": "/geraspace.github.io/static/media/Background.1e6d7321f3f59eadaa7f.jpg",
-    "index.html": "/geraspace.github.io/index.html",
-    "main.d4e97437.css.map": "/geraspace.github.io/static/css/main.d4e97437.css.map",
-    "main.db74ce3a.js.map": "/geraspace.github.io/static/js/main.db74ce3a.js.map",
-    "787.d54a2c7b.chunk.js.map": "/geraspace.github.io/static/js/787.d54a2c7b.chunk.js.map"
+    "main.css": "/static/css/main.5efb3e64.css",
+    "main.js": "/static/js/main.b5b239c4.js",
+    "static/js/787.d54a2c7b.chunk.js": "/static/js/787.d54a2c7b.chunk.js",
+    "static/media/ProfilePicture.jpg": "/static/media/ProfilePicture.e694a09b2f013f2a61a9.jpg",
+    "static/media/Background.jpg": "/static/media/Background.1e6d7321f3f59eadaa7f.jpg",
+    "index.html": "/index.html",
+    "main.5efb3e64.css.map": "/static/css/main.5efb3e64.css.map",
+    "main.b5b239c4.js.map": "/static/js/main.b5b239c4.js.map",
+    "787.d54a2c7b.chunk.js.map": "/static/js/787.d54a2c7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4e97437.css",
-    "static/js/main.db74ce3a.js"
+    "static/css/main.5efb3e64.css",
+    "static/js/main.b5b239c4.js"
   ]
 }
