@@ -9,19 +9,24 @@ body {
   margin-bottom: 100px;
 }
 
-.BotonCopiar{
+.BotonCopiar {
   background-color: transparent;
+  padding: 0;
+  border: none;
+  background: none;
 }
 
 /* ANIMACIONES */
 
 /* Animacion About e Interests */
-.MainAbout-Title:hover, .MainInterests-Title:hover{
+.MainAbout-Title:hover,
+.MainInterests-Title:hover {
   font-size: 6vh;
   transition: font-size 0.2s;
 }
 
-.MainAbout-Title:not(:hover), .MainInterests-Title:not(:hover) {
+.MainAbout-Title:not(:hover),
+.MainInterests-Title:not(:hover) {
   font-size: 5vh;
   transition: font-size 0.2s;
 }
@@ -35,13 +40,11 @@ a {
 
 a:hover {
   opacity: 1;
-  width: 300px;
   transition: opacity 600ms;
 }
 
 a:not(:hover) {
   opacity: 0.2;
-  width: 300px;
   transition: opacity 600ms;
 }
 /* END Iconos de redes */
@@ -172,7 +175,7 @@ a:not(:hover) {
   width: 100%;
   color: white;
   text-align: center;
-  position:fixed;
+  position: fixed;
   text-align: center;
 }
 
