@@ -3,17 +3,13 @@
 /* END FUENTES */
 
 html {
-  overflow: auto;
   height: 100%;
 }
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
     url("./images/stars.gif");
-  background-attachment: fixed;
-  background-size: cover;
   background-repeat: repeat;
-  background-position: 10px 0px;
 }
 
 .BotonCopiar {
@@ -211,12 +207,10 @@ a:not(:hover) {
   width: 100%;
   color: white;
   text-align: center;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 15px 0;
+  bottom: 0;
+  position: fixed;
 }
-
-/* .MainFooter {
-
-} */
 
 /* END Footer */
 
