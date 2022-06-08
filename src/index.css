@@ -9,8 +9,11 @@ html {
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
-    url("./images/Background.jpg");
+    url("./images/stars.gif");
   background-attachment: fixed;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 0 100px;
 }
 
 .BotonCopiar {
@@ -208,7 +211,7 @@ a:not(:hover) {
   width: 100%;
   color: white;
   text-align: center;
-  padding: 0 0 20px 0;
+  padding: 10px 0 10px 0;
   position: fixed;
   bottom: 0;
 }
