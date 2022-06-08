@@ -90,10 +90,9 @@ a:not(:hover) {
 
 .MainHeaderDiv{
   left: 0;
-  top: 0px;
+  top: 10px;
   width: 100%;
   color: white;
-  position: fixed;
   text-align: center;
 }
 
@@ -103,7 +102,7 @@ a:not(:hover) {
   color: white;
   font-family: "Neuton";
   font-weight: 100;
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
 
 .MainHeader:hover{
@@ -122,7 +121,7 @@ a:not(:hover) {
 
 .MainInfoDiv {
   margin: 0;
-  padding: 80px 50px 0px 50px;
+  padding: 0px 50px 0px 50px;
   text-align: center;
 }
 
@@ -214,7 +213,7 @@ a:not(:hover) {
   width: 100%;
   color: white;
   text-align: center;
-  position: fixed;
+  padding: 0 0 20px 0;
 }
 
 .MainFooter {
