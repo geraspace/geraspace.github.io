@@ -5,7 +5,7 @@ export default function MainAbout() {
     <div className="MainAboutDiv">
       <h1 className="MainAbout-Title">About</h1>
       <p className="MainAbout-Text">
-        ¡Hola! Soy Gerardo, Ingeniero Aeroespacial con gusto por la programación.
+        Hi! I'm Gerardo, an Aerospace Engineer that loves programming.
       </p>
     </div>
   );
