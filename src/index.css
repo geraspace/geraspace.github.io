@@ -8,12 +8,9 @@ html {
 }
 
 body {
-  overflow: auto;
-  height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
     url("./images/Background.jpg");
   background-attachment: fixed;
-  margin-bottom: 100px;
 }
 
 .BotonCopiar {
@@ -88,7 +85,7 @@ a:not(:hover) {
 
 /* Header */
 
-.MainHeaderDiv{
+.MainHeaderDiv {
   left: 0;
   top: 10px;
   width: 100%;
@@ -96,21 +93,21 @@ a:not(:hover) {
   text-align: center;
 }
 
-.MainHeader{
+.MainHeader {
   opacity: 0.5;
   padding: 20px;
   color: white;
   font-family: "Neuton";
   font-weight: 100;
-  font-size: 2.5vh;
+  font-size: calc(10px + 1vh)
 }
 
-.MainHeader:hover{
+.MainHeader:hover {
   opacity: 1;
   transition: opacity 600ms;
 }
 
-.MainHeader:not(:hover){
+.MainHeader:not(:hover) {
   opacity: 0.5;
   transition: opacity 600ms;
 }
@@ -208,20 +205,17 @@ a:not(:hover) {
 /* Footer */
 
 .MainFooterDiv {
-  left: 0;
-  bottom: 10px;
   width: 100%;
   color: white;
   text-align: center;
   padding: 0 0 20px 0;
+  position: fixed;
+  bottom: 0;
 }
 
-.MainFooter {
-  color: white;
-  font-family: "Neuton";
-  font-weight: 900;
-  font-size: 3vh;
-}
+/* .MainFooter {
+
+} */
 
 /* END Footer */
 

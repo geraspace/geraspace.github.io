@@ -7,7 +7,7 @@ import MainHeader from './components/MainHeader';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <MainHeader/>
       <MainInfo/>
       <MainAbout/>
