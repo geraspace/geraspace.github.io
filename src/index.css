@@ -79,11 +79,43 @@ a:not(:hover) {
 
 /* END ANIMACIONES */
 
+/* Header */
+
+.MainHeaderDiv{
+  left: 0;
+  top: 0px;
+  width: 100%;
+  color: white;
+  position: fixed;
+  text-align: center;
+}
+
+.MainHeader{
+  opacity: 0.5;
+  padding: 20px;
+  color: white;
+  font-family: "Neuton";
+  font-weight: 100;
+  font-size: 3vh;
+}
+
+.MainHeader:hover{
+  opacity: 1;
+  transition: opacity 600ms;
+}
+
+.MainHeader:not(:hover){
+  opacity: 0.5;
+  transition: opacity 600ms;
+}
+
+/* End header */
+
 /* Photo, name and title */
 
 .MainInfoDiv {
   margin: 0;
-  padding: 20px 50px 0px 50px;
+  padding: 80px 50px 0px 50px;
   text-align: center;
 }
 
@@ -176,7 +208,6 @@ a:not(:hover) {
   color: white;
   text-align: center;
   position: fixed;
-  text-align: center;
 }
 
 .MainFooter {
