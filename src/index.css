@@ -73,13 +73,13 @@ a:not(:hover) {
 /* Animacion foto */
 .MainInfo-ProfilePicture:hover {
   border: 4px solid rgba(202, 233, 255, 1);
-  width: 21vh;
+  width: 16vh;
   transition: width 0.2s, border 0.5s;
 }
 
 .MainInfo-ProfilePicture:not(:hover) {
   border: 4px solid rgba(202, 233, 255, 0.5);
-  width: 20vh;
+  width: 14vh;
   transition: width 0.2s, border 0.5s;
 }
 /* END Animacion foto */
@@ -127,8 +127,8 @@ a:not(:hover) {
 }
 
 .MainInfo-ProfilePicture {
-  width: 20vh;
-  height: 25vh;
+  width: 12vh;
+  height: 18vh;
   object-fit: cover;
   object-position: 0 30%;
   border-radius: 20px;
