@@ -13,7 +13,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: repeat;
-  background-position: 0 100px;
+  background-position: 10px 0px;
 }
 
 .BotonCopiar {
@@ -212,7 +212,6 @@ a:not(:hover) {
   color: white;
   text-align: center;
   padding: 10px 0 10px 0;
-  position: fixed;
   bottom: 0;
 }
 
