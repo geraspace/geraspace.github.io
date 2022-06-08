@@ -24,13 +24,13 @@ body {
 /* Animacion About e Interests */
 .MainAbout-Title:hover,
 .MainInterests-Title:hover {
-  font-size: 6vh;
+  font-size: 5vh;
   transition: font-size 0.2s;
 }
 
 .MainAbout-Title:not(:hover),
 .MainInterests-Title:not(:hover) {
-  font-size: 5vh;
+  font-size: 4vh;
   transition: font-size 0.2s;
 }
 /* END Animacion About e Interests */
@@ -98,7 +98,7 @@ a:not(:hover) {
   color: white;
   font-family: "Neuton";
   font-weight: 100;
-  font-size: calc(10px + 1vh)
+  font-size: calc(10px + 0.5vw)
 }
 
 .MainHeader:hover {
@@ -134,7 +134,7 @@ a:not(:hover) {
   color: #cae9ff;
   font-family: "Neuton";
   font-weight: 900;
-  font-size: 5vh;
+  font-size: 4vh;
   margin: 0px 0px 5px 0px;
   display: inline-block;
 }
@@ -160,7 +160,7 @@ a:not(:hover) {
   color: #cae9ff;
   font-family: "Neuton";
   font-weight: 900;
-  font-size: 5vh;
+  font-size: 4vh;
   margin: 0;
   display: inline-block;
 }
@@ -186,7 +186,7 @@ a:not(:hover) {
   color: #cae9ff;
   font-family: "Neuton";
   font-weight: 900;
-  font-size: 5vh;
+  font-size: 4vh;
   margin: 0;
   display: inline-block;
 }
